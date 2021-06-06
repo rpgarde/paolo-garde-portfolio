@@ -66,6 +66,7 @@ section:hover .label{
     max-width:300px;
     min-width:120px;
     padding:10px;
+    font-size:200%;
     font-family:serif;
 }
 
@@ -137,6 +138,11 @@ section:hover .label{
     box-shadow: 4px 4px 4px #4a4e69
 }
 
+.img-block:hover figcaption, .img-block-main:hover figcaption {
+    background-color:#22223b;
+    color:white;
+}
+
 /*styles the captions inside the images*/
 figcaption {
     position:absolute;
@@ -200,7 +206,12 @@ figcaption {
         flex: 1 1 auto;
         width:90%;
     }
-    
+
+    #profile-pic {
+        width:60%;
+        height:auto;
+    }
+        
     #intro {
         width:90%;
         padding:5%;

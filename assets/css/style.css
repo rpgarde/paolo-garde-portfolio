@@ -97,6 +97,8 @@ section:hover .label{
 #profile-pic {
     width:30%;
     height:auto;
+    object-fit: cover;
+    overflow: hidden;
 }
 
 /*Styles the first image in portfolio as larger than the others*/

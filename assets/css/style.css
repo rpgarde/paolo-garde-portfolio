@@ -165,6 +165,27 @@ figcaption {
 #contact a {
     color: #22223b;
     padding:5px;
+    text-decoration:underline 2px 
+}
+
+#linkedin::before{
+    content:"👔 ";
+    display:inline-block;
+}
+
+#github::before{
+    content:"💻 ";
+    display:inline-block;
+}
+
+#youtube::before{
+    content:"📺 ";
+    display:inline-block;
+}
+
+#email::before{
+    content:"✉️ ";
+    display:inline-block;
 }
 
 /*If you hover over the links on the footer it adds a background color*/ 

@@ -54,7 +54,7 @@ section{
     text-shadow: 1px 1px 3px black;
 }
 
-/*Hover over sections to change label colors*/
+/*Hover over sections to change label colors, letting the user know which section they are on*/
 section:hover .label{
     background-color:#9a8c98;
     color:white;
@@ -78,7 +78,7 @@ section:hover .label{
     flex-wrap:wrap;
     padding:10px;
     display:flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 /*Needed to put this so that the about me section didn't wrap*/
@@ -91,7 +91,7 @@ section:hover .label{
 /*Styles the intro paragraph in About Me*/
 #intro {
     width:70%;
-    padding:5%;
+    margin:10px;
 }
 
 #profile-pic {
@@ -99,12 +99,13 @@ section:hover .label{
     height:auto;
     object-fit: cover;
     overflow: hidden;
+    margin:10px;
 }
 
 /*Styles the first image in portfolio as larger than the others*/
 .img-block-main {
     display:inline-block;
-    margin:5px;
+    margin:10px;
     position:relative;
     flex: 1 1 auto;
     width:100%;
@@ -135,6 +136,7 @@ section:hover .label{
     border: #9a8c98 solid 4px;
 }
 
+/*When you hover over the blocks, they zoom in slightly, shadow is added, and the colours of the caption changes*/
 .img-block:hover, .img-block-main:hover {
     transform:scale(1.02);
     box-shadow: 4px 4px 4px #4a4e69
@@ -157,7 +159,8 @@ figcaption {
     padding:10px;
 }
 
-/*Styling the footer*/
+/*Styling the contact section*/
+
 #contact {
     align-items:center;
 }
@@ -165,9 +168,10 @@ figcaption {
 #contact a {
     color: #22223b;
     padding:5px;
-    text-decoration:underline 2px 
+    text-decoration:underline 2px
 }
 
+/*Adding an emoji before each link in the contact section*/
 #linkedin::before{
     content:"👔 ";
     display:inline-block;
@@ -188,13 +192,12 @@ figcaption {
     display:inline-block;
 }
 
-/*If you hover over the links on the footer it adds a background color*/ 
+/*If you hover over the links in the contact section, it adds a background color*/ 
 #contact a:hover {
     background-color: #22223b;
     color:white;
     padding:5px;
 }
-
 
 /*Under 768px for mobile devices, everything turns into a column view*/
 

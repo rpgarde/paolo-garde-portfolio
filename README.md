@@ -1,5 +1,5 @@
 # paolo-garde-portfolio
-This is my portfolio (and week 2 assignment)
+## This is my portfolio (and week 2 assignment)
 
 I put together my portfolio using my current knowledge of HTML and CSS. 
 

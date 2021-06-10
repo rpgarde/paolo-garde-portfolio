@@ -1,9 +1,11 @@
 # paolo-garde-portfolio
 ## This is my portfolio (and week 2 assignment)
 
-I put together my portfolio using my current knowledge of HTML and CSS. 
+I put together my portfolio using my current knowledge of HTML and CSS. Here you'll see a bit about me, my work, and ways to contact me.
 
 I used flexboxes and media queries to achieve a responsive design which adapts to both mobile and desktop viewports. 
+
+You can access via [this link](https://rpgarde.github.io/paolo-garde-portfolio/)
 
 ![Here's what it looks like](assets/images/readme-image.png)
 

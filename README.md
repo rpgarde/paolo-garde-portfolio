@@ -1,5 +1,4 @@
-# paolo-garde-portfolio
-## This is my portfolio (and week 2 assignment)
+# Welcome to my portfolio 👋
 
 I put together my portfolio using my current knowledge of HTML and CSS. Here you'll see a bit about me, my work, and ways to contact me.
 

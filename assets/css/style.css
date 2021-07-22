@@ -51,7 +51,9 @@ section{
     color:white;
     font-weight:bold;
     font-family:serif;
+    font-size:150%;
     text-shadow: 1px 1px 3px black;
+    text-align:center;
 }
 
 /*Hover over sections to change label colors, letting the user know which section they are on*/
@@ -169,6 +171,10 @@ figcaption {
     color: #22223b;
     padding:5px;
     text-decoration:underline 2px
+}
+
+#contact .content-block{
+    justify-content: space-evenly;
 }
 
 /*Adding an emoji before each link in the contact section*/

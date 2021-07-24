@@ -1,256 +1,28 @@
 /*sets my default font and a background-color for everything*/
-*{
+body{
     background-color:#f2e9e4;
     font-family:sans-serif;
 }
 
 /*styles the header + nav bar*/
-header, h1, nav{
-    display:flex;
-    flex-direction:row;
-    flex-wrap:wrap;
-    align-items:center;
-    justify-content:space-between;
-    padding:10px;
+.navbar {
     background-color: #4A4E69;
-    color:white;
 }
 
 /*Hover over nav links to change colour*/
-a[href^="#"] {
-    color: white;
-    padding:5px;
-}
 
 a[href^="#"]:hover {
     background-color: #22223b;
 }
 
-nav{
-    text-align:right;
-    padding:5px;
-}
-
-section{
-    margin:10px;
-    display:flex;
-    flex-direction:row;
-}
-
-/*tagline with background image*/
-.tagline{
-    background-image:url("../images/bg-image.jpeg");
-    background-size:cover;
-    width:100%;
-    height:100px;
-    background-position: center center;
-    background-repeat:none;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    color:white;
-    font-weight:bold;
-    font-family:serif;
-    font-size:150%;
-    text-shadow: 1px 1px 3px black;
-    text-align:center;
-}
-
 /*Hover over sections to change label colors, letting the user know which section they are on*/
-section:hover .label{
+.section:hover .label{
     background-color:#9a8c98;
     color:white;
 }
 
 /*styles the labels on the lefthand side*/
 .label{
-    flex: 1 0;
-    max-width:300px;
-    min-width:120px;
-    padding:10px;
     font-size:200%;
     font-family:serif;
-}
-
-/*turns all of the content blocks (righthand side) into flexboxes that wrapped*/
-.content-block{
-    flex: 3 0;
-    border-left: #4A4E69 2px solid;
-    flex-direction:row;
-    flex-wrap:wrap;
-    padding:10px;
-    display:flex;
-    justify-content: space-between;
-}
-
-/*Needed to put this so that the about me section didn't wrap*/
-#about-me .content-block {
-    display:flex;
-    flex-direction:row;
-    flex-wrap:nowrap;
-}
-
-/*Styles the intro paragraph in About Me*/
-#intro {
-    width:70%;
-    margin:10px;
-}
-
-#profile-pic {
-    width:30%;
-    height:auto;
-    object-fit: cover;
-    overflow: hidden;
-    margin:10px;
-}
-
-/*Styles the first image in portfolio as larger than the others*/
-.img-block-main {
-    display:inline-block;
-    margin:10px;
-    position:relative;
-    flex: 1 1 auto;
-    width:100%;
-    transition: transform .5s ease;
-}
-
-.img-block-main img {
-    width:100%;
-    height:auto;
-    display:block;
-    border: #9a8c98 solid 4px;
-}
-
-/* All the other image blocks (to be two boxes side by side)*/
-.img-block {
-    display:inline-block;
-    margin:10px;
-    position:relative;
-    flex: 1 1 auto;
-    width:40%;
-    transition: transform .5s ease;
-}
-
-.img-block img {
-    width:100%;
-    height:auto;
-    display:block;
-    border: #9a8c98 solid 4px;
-}
-
-/*When you hover over the blocks, they zoom in slightly, shadow is added, and the colours of the caption changes*/
-.img-block:hover, .img-block-main:hover {
-    transform:scale(1.02);
-    box-shadow: 4px 4px 4px #4a4e69
-}
-
-.img-block:hover figcaption, .img-block-main:hover figcaption {
-    background-color:#22223b;
-    color:white;
-}
-
-/*styles the captions inside the images*/
-figcaption {
-    position:absolute;
-    bottom:10px;
-    left:0;
-    width:70%;
-    border:white 2px solid;
-    background-color: #c9ada7;
-    color:#22223b;
-    padding:10px;
-}
-
-/*Styling the contact section*/
-
-#contact {
-    align-items:center;
-}
-
-#contact a {
-    color: #22223b;
-    padding:5px;
-    text-decoration:underline 2px
-}
-
-#contact .content-block{
-    justify-content: space-evenly;
-}
-
-/*Adding an emoji before each link in the contact section*/
-#linkedin::before{
-    content:"👔 ";
-    display:inline-block;
-}
-
-#github::before{
-    content:"💻 ";
-    display:inline-block;
-}
-
-#youtube::before{
-    content:"📺 ";
-    display:inline-block;
-}
-
-#email::before{
-    content:"✉️ ";
-    display:inline-block;
-}
-
-/*If you hover over the links in the contact section, it adds a background color*/ 
-#contact a:hover {
-    background-color: #22223b;
-    color:white;
-    padding:5px;
-}
-
-/*Under 768px for mobile devices, everything turns into a column view*/
-
-@media screen and (max-width:768px) {
-    section {
-        margin:10px;
-        display:flex;
-        flex-direction:column;
-    }
-    header{
-        flex-direction:column;
-    }
-    nav {
-        text-align:center;
-        flex-direction:column;
-    }
-    a[href^="#"] {
-        width:100%;
-    }
-
-/*Turned this into a column section so my profile pic appears on top of the text*/
-    #about-me .content-block {
-        display:flex;
-        flex-direction:column;
-        align-items:center;
-    }
-    
-    .img-block, .img-block-main {
-        display:inline-block;
-        margin:5px;
-        position:relative;
-        flex: 1 1 auto;
-        width:90%;
-    }
-
-    #profile-pic {
-        width:60%;
-        height:auto;
-    }
-        
-    #intro {
-        width:90%;
-        padding:5%;
-    }
-    
-    #contact {
-        align-items:flex-start;
-    }
-
 }

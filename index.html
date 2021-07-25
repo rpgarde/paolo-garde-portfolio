@@ -1,140 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Paolo Garde's Portfolio</title>
-</head>
-<body>
-    <nav class="navbar navbar-expand-md navbar-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand fw-bold">paolo garde.</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#about-me">about me</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#my-work">my work</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link active dropdown-toggle" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  get in touch
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                  <li><a class="dropdown-item" href="https://github.com/rpgarde" target = "_blank">Github</a></li>
-                  <li><a class="dropdown-item" href="http://www.linkedin.com/in/paologarde" target = "_blank">LinkedIn</a></li>
-                  <li><a class="dropdown-item" href="http://www.youtube.com/pgblanks" target = "_blank">YouTube</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="./assets/images/paolo-garde-cv.pdf" target = "_blank">Download my CV</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="mailto:rpgarde@gmail.com" target = "_blank">✉️ rpgarde@gmail.com</a></li>
-                  <li><a class="dropdown-item" href="tel:+61412957544" target = "_blank">☎️ +61412957544</a></li>
 
-                </ul>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Paolo Garde's Portfolio</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold">paolo garde.</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#about-me">about me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#my-work">my work</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" id="navbarScrollingDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              get in touch
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+              <li><a class="dropdown-item" href="https://github.com/rpgarde" target="_blank">Github</a></li>
+              <li><a class="dropdown-item" href="http://www.linkedin.com/in/paologarde" target="_blank">LinkedIn</a>
               </li>
+              <li><a class="dropdown-item" href="http://www.youtube.com/pgblanks" target="_blank">YouTube</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="./assets/images/paolo-garde-cv.pdf" target="_blank">Download my CV</a>
+              </li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="mailto:rpgarde@gmail.com" target="_blank">✉️ rpgarde@gmail.com</a></li>
+              <li><a class="dropdown-item" href="tel:+61412957544" target="_blank">☎️ +61412957544</a></li>
+
             </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="row my-2 section">
+      <div class="col-sm-2 fw-bold label" id="about-me">
+        about me.
+      </div>
+      <div class="col-sm-10">
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="./assets/images/profile-pic.png" class="img-fluid rounded-start" alt="paolo garde">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Hi 👋, I'm Paolo.</h5>
+                <p class="card-text">I'm an aspiring web developer with over 8 years of Ops leadership experience in
+                  startups like Uber, FoodByUs, and :Different. I'm currently taking the Coding Bootcamp at The
+                  University of Sydney. See my work below.</p>
+              </div>
+            </div>
           </div>
         </div>
-      </nav>
-
-    <div class="container">
-        <div class = "row my-2 section">
-            <div class = "col-sm-2 fw-bold label" id = "about-me">
-                about me.
-            </div>
-            <div class = "col-sm-10">
-                <div class="card mb-3">
-                    <div class="row g-0">
-                      <div class="col-md-4">
-                        <img src="./assets/images/profile-pic.png" class="img-fluid rounded-start" alt="paolo garde">
-                      </div>
-                      <div class="col-md-8">
-                        <div class="card-body">
-                          <h5 class="card-title">Hi 👋, I'm Paolo.</h5>
-                          <p class="card-text">I'm an aspiring web developer with over 8 years of Ops leadership experience in startups like Uber, FoodByUs, and :Different. I'm currently taking the Coding Bootcamp at The University of Sydney. See my work below.</p>
-                        </div>
-                      </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class = "row my-2 section">
-            <div class="col-sm-2 fw-bold label" id = "my-work">
-                my work. 
-            </div>
-            <div class="col-sm-10">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <div class="card my-2">
-                            <img src="./assets/images/covid-tracker.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <h5 class="card-title">COVID-19 Tracker</h5>
-                              <p class="card-text">Our first group project. This shows COVID stats globally and by country.</p>
-                              <p class="card-text">Tech: HTML, CSS, Javascript, API, Bulma</p>
-                            </div>
-                            <div class="card-body">
-                                <a href="https://www.github.com/rpgarde/project-1-covid-stats" target=”_blank” class="btn btn-secondary">Repo</a>
-                                <a href="https://rpgarde.github.io/project-1-covid-stats" target=”_blank” class="btn btn-secondary">Deployed site</a>
-                            </div>
-                          </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="card my-2">
-                            <img src="./assets/images/weather-dash.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <h5 class="card-title">Weather Dashboard</h5>
-                              <p class="card-text">Allows you to show current weather + next 5 days for a given city.</p>
-                              <p class="card-text">Tech: HTML, Bootstrap, Javascript, API</p>
-                            </div>
-                            <div class="card-body">
-                                <a href="https://www.github.com/rpgarde/weather-dashboard"  target=”_blank” class="btn btn-secondary">Repo</a>
-                                <a href="https://rpgarde.github.io/weather-dashboard" target=”_blank” class="btn btn-secondary">Deployed site</a>
-                            </div>
-                          </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-6">
-                        <div class="card my-2">
-                            <img src="./assets/images/day-scheduler.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <h5 class="card-title">Day Scheduler</h5>
-                              <p class="card-text">A day planner which stores results in local storage.</p>
-                              <p class="card-text">Tech: HTML, CSS, Javascript, JQuery, Moment</p>
-                            </div>
-                            <div class="card-body">
-                                <a href="https://www.github.com/rpgarde/day-scheduler" class="btn btn-secondary">Repo</a>
-                                <a href="https://rpgarde.github.io/day-scheduler" target=”_blank” target=”_blank” class="btn btn-secondary">Deployed site</a>
-                            </div>
-                          </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="card my-2">
-                            <img src="./assets/images/coding-quiz.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <h5 class="card-title">Coding Quiz</h5>
-                              <p class="card-text">A simple 5-point timed coding quiz which tests you on Javascript.</p>
-                              <p class="card-text">Tech: HTML, CSS, Javascript</p>
-                            </div>
-                            <div class="card-body">
-                              <a href="https://www.github.com/rpgarde/coding-quiz" target=”_blank” class="btn btn-secondary">Repo</a>
-                              <a href="https://rpgarde.github.io/coding-quiz" target=”_blank” class="btn btn-secondary">Deployed site</a>
-                            </div>
-                          </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+      </div>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <div class="row my-2 section">
+      <div class="col-sm-2 fw-bold label" id="my-work">
+        my work.
+      </div>
+      <div class="col-sm-10">
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="card my-2">
+              <img src="./assets/images/covid-tracker.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">COVID-19 Tracker</h5>
+                <p class="card-text">Our first group project. This shows COVID stats globally and by country.</p>
+                <p class="card-text">Tech: HTML, CSS, Javascript, API, Bulma</p>
+              </div>
+              <div class="card-body">
+                <a href="https://www.github.com/rpgarde/project-1-covid-stats" target=”_blank”
+                  class="btn btn-secondary">Repo</a>
+                <a href="https://rpgarde.github.io/project-1-covid-stats" target=”_blank”
+                  class="btn btn-secondary">Deployed site</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card my-2">
+              <img src="./assets/images/weather-dash.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Weather Dashboard</h5>
+                <p class="card-text">Allows you to show current weather + next 5 days for a given city.</p>
+                <p class="card-text">Tech: HTML, Bootstrap, Javascript, API</p>
+              </div>
+              <div class="card-body">
+                <a href="https://www.github.com/rpgarde/weather-dashboard" target=”_blank”
+                  class="btn btn-secondary">Repo</a>
+                <a href="https://rpgarde.github.io/weather-dashboard" target=”_blank” class="btn btn-secondary">Deployed
+                  site</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="card my-2">
+              <img src="./assets/images/day-scheduler.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Day Scheduler</h5>
+                <p class="card-text">A day planner which stores results in local storage.</p>
+                <p class="card-text">Tech: HTML, CSS, Javascript, JQuery, Moment</p>
+              </div>
+              <div class="card-body">
+                <a href="https://www.github.com/rpgarde/day-scheduler" class="btn btn-secondary">Repo</a>
+                <a href="https://rpgarde.github.io/day-scheduler" target=”_blank” target=”_blank”
+                  class="btn btn-secondary">Deployed site</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card my-2">
+              <img src="./assets/images/coding-quiz.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Coding Quiz</h5>
+                <p class="card-text">A simple 5-point timed coding quiz which tests you on Javascript.</p>
+                <p class="card-text">Tech: HTML, CSS, Javascript</p>
+              </div>
+              <div class="card-body">
+                <a href="https://www.github.com/rpgarde/coding-quiz" target=”_blank” class="btn btn-secondary">Repo</a>
+                <a href="https://rpgarde.github.io/coding-quiz" target=”_blank” class="btn btn-secondary">Deployed
+                  site</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
